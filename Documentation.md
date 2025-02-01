@@ -17,10 +17,21 @@ Before you begin, ensure you have the following:
 3. **Complete the Wizard:** Follow the on-screen instructions in the installation wizard to complete the installation.
 4. **System Tray Icon:** Once the installation is finished, the MagicEndpoint FidoEazy icon (sdpin) will appear in your system tray.  This indicates that the application is running.  *(Include a screenshot here showing the system tray icon.  Example: `![SD Running](path/to/sdpin_screenshot.png)`)*.
 
-## Configuration and Usage (Coming Soon)
+## Configuration and Usage
 
-This section will be updated with detailed instructions on how to configure and use MagicEndpoint FidoEazy to generate SSH keys, manage certificates, and connect to SSH servers.  Stay tuned for updates!
+1. **Create a MagicEndpoint PIN:** Right-click the SDPin icon in the system tray and select "Create MagicEndpoint Pin".
 
+2. **Set Your PIN:** A "Create PIN" window will appear. Enter your desired PIN and confirm it in the provided fields.  Choose a PIN you can remember, but avoid easily guessable sequences.
+
+3. **MagicEndpoint Login Confirmation:**  A confirmation message will appear, indicating that you are logged into MagicEndpoint.
+
+4. **Access SSH Management:** Right-click the SDPin icon again and select "SSH Management".
+
+5. **Add SSH Server:** In the SSH Management window, add your SSH server details:
+    * **SSH Server Address:** Enter the hostname or IP address of your SSH server.
+    * **User Name:** Enter the username you use to log in to the SSH server.
+
+*(Optional: You can include screenshots of each step to make the instructions even clearer.  For example: `![Create PIN Window](path/to/create_pin_screenshot.png)`)*
 
 ## Troubleshooting
 
