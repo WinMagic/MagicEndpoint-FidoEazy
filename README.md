@@ -61,11 +61,8 @@ This repository provides:
 * **Key Management Examples:** Scripts and examples for managing keys.
 * **FIDO2 Integration Demonstrations:** Examples of using FIDO2 for SSH.
 
-Refer to the [documentation](link-to-documentation) for detailed instructions.
+Refer to the [documentation](https://github.com/WinMagic/MagicEndpoint-FidoEazy/blob/main/Documentation.md) for detailed instructions.
 
-## Contributing
-
-Contributions are welcome! See the [contributing guidelines](CONTRIBUTING.md).
 
 ## License
 
