@@ -1,4 +1,4 @@
-# MagicEndpoint FIDO Eazy
+# MagicEndpoint FidoEazy
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -26,15 +26,17 @@ We're talking:
 * **Streamlined Experience:** So easy, anyone can do it! 🤩
 * **Ironclad Device Authorization:**  Only *your* devices get in. 💻📱
 
-## That's what MagicEndpoint FIDO Eazy is all about!  🚀
+## That's what MagicEndpoint FidoEazy is all about!  🚀
+
+You can download the latest release of MagicEndpoint FidoEazy here: (https://github.com/WinMagic/MagicEndpoint-FidoEazy/releases)
 
 ## Situation and Complications
 
 Many Windows users still rely on insecure username/password authentication for SSH. While public/private key pairs are more secure, they introduce management complexities and risks, such as key theft. Securing private keys with TPM adds further complexity. Existing solutions like virtual smart cards (soon to be deprecated) and TPM-TLS certificates (limited client compatibility) are not ideal. FIDO SSH keys offer a more secure and user-friendly alternative, but integrating them seamlessly with Windows can be challenging.  Traditional SSH keys also lack a critical component: device authorization.  Anyone with the key can attempt a login, regardless of the device's legitimacy.
 
-## The Solution: MagicEndpoint FIDO Eazy
+## The Solution: MagicEndpoint FidoEazy
 
-MagicEndpoint FIDO Eazy simplifies secure SSH key management on Windows by leveraging FIDO keys stored in the TPM. This approach offers:
+MagicEndpoint FidoEazy simplifies secure SSH key management on Windows by leveraging FIDO keys stored in the TPM. This approach offers:
 
 * **Passwordless Authentication:** Eliminate password-related risks.
 * **Device Binding:** Restrict access to authorized devices only.
