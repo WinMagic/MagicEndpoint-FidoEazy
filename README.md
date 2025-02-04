@@ -34,11 +34,11 @@ Many Windows users still rely on insecure username/password authentication for S
 
 ## The Solution: MagicEndpoint FIDO Eazy
 
-MagicEndpoint FIDO Eazy simplifies secure SSH key management on Windows by leveraging FIDO keys, SSH certificates, and optional TPM integration. This approach offers:
+MagicEndpoint FIDO Eazy simplifies secure SSH key management on Windows by leveraging FIDO keys stored in the TPM. This approach offers:
 
 * **Passwordless Authentication:** Eliminate password-related risks.
 * **Device Binding:** Restrict access to authorized devices only.
-* **Centralized Management:** Simplify key management with SSH certificates.
+* **Centralized Management:** Simplify key management with the FidoEazy desktop application.
 * **Scalability:** Easily manage SSH access for many users and devices.
 * **FIDO2 Compliance:** Leverage the security of FIDO2 authenticators.
 * **TPM Integration (Optional):** Enhance device binding with TPM.
@@ -47,7 +47,7 @@ MagicEndpoint FIDO Eazy simplifies secure SSH key management on Windows by lever
 
 ## Key Features and Benefits
 
-* **Automatic FIDO SSH Key Creation:** Easily generate TPM-backed FIDO keys.
+* **Automatic default SSH Key Creation:** Generate TPM-backed ecdsa user identity key ~/.ssh/id_ecdsa.
 * **One-Click Key Creation:** Add more keys as needed.
 * **Intuitive Key Management UI:** A user-friendly interface for key management.
 * **Seamless Key Backup:** Securely back up your keys.
@@ -57,12 +57,16 @@ MagicEndpoint FIDO Eazy simplifies secure SSH key management on Windows by lever
 
 This repository provides:
 
-* **Certificate Generation Tools:** Tools for creating SSH certificates.
+* **FidoEazy standalone client:** Windows System Tray Application to manage FIDO keys.
 * **Key Management Examples:** Scripts and examples for managing keys.
 * **FIDO2 Integration Demonstrations:** Examples of using FIDO2 for SSH.
 
 Refer to the [documentation](https://github.com/WinMagic/MagicEndpoint-FidoEazy/blob/main/Documentation.md) for detailed instructions.
 
+## Disclaimer
+
+This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+By using this software, you acknowledge that you do so at your own risk. The authors assume no responsibility for any consequences resulting from the use of this software.
 
 ## License
 
@@ -70,4 +74,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-[Your Name/Team] - [Your Email/Contact Information]
+Technical Support: support@winmagic.com. For information: info@winmagic.com
+
+
