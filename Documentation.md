@@ -12,7 +12,7 @@ Before you begin, ensure you have the following:
 
 ## Installation
 
-1. **Download MagicEndpoint FidoEazy:** Download the latest release of MagicEndpoint FidoEazy from the [GitHub releases page](link-to-github-releases).  *(Remember to replace `link-to-github-releases` with the actual link.)*
+1. **Download MagicEndpoint FidoEazy:** Download the latest release of MagicEndpoint FidoEazy from the [GitHub releases page](https://github.com/WinMagic/MagicEndpoint-FidoEazy/releases).
 2. **Run the Installer:** The downloaded file will be an executable. Double-click it to begin the installation process.
 3. **Complete the Wizard:** Follow the on-screen instructions in the installation wizard to complete the installation.
 4. **System Tray Icon:** Once the installation is finished, the MagicEndpoint FidoEazy icon (sdpin) will appear in your system tray.  This indicates that the application is running.  *(Include a screenshot here showing the system tray icon.  Example: `![SD Running](path/to/sdpin_screenshot.png)`)*.
