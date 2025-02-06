@@ -67,6 +67,6 @@ Refer to the [documentation](https://github.com/WinMagic/MagicEndpoint-FidoEazy/
 
 ## Contact
 
-Technical Support: support@winmagic.com. For information: info@winmagic.com
+If you have any questions or encounter any problems, please feel free to open an issue on the [GitHub repository](https://github.com/WinMagic/MagicEndpoint-FidoEazy/issues).
 
 
